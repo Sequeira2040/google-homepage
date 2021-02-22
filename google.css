@@ -1,0 +1,36 @@
+.navrightalign {
+    float: right;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+}
+
+.footerleftalign {
+    float: left;
+    position: absolute;
+    bottom: 0%;
+}
+
+.footerrightalign {
+    float: right;
+    bottom: 0%;
+    right: 0%;
+    position: absolute;
+}
+
+#googlelogo {
+    position:absolute;
+    top: 30%;
+    left: 40%;
+}
+
+/*List Items*/
+
+li {
+    display: inline;
+    vertical-align: middle;
+    margin: 5px;
+}
