@@ -1,36 +1,87 @@
 .navrightalign {
     float: right;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.center {
+#searchbar {
     position: absolute;
-    top: 50%;
-    left: 35%;
+    bottom: 48%;
+    left: 35.1%;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 1pt;
+    border-color: rgb(206, 206, 206);
+    width: 30%;
+    height: 5%;
+    padding: 5px;
 }
 
 .footerleftalign {
     float: left;
     position: absolute;
     bottom: 0%;
+    left: -2%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .footerrightalign {
     float: right;
     bottom: 0%;
-    right: 0%;
+    right: 1%;
     position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #googlelogo {
     position:absolute;
-    top: 30%;
-    left: 40%;
+    top: 25%;
+    left: 40.3%;
 }
 
-/*List Items*/
+.searchbutton1 {
+    position: absolute;
+    bottom: 38%;
+    left: 41%;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.searchbutton2 {
+    position: absolute;
+    bottom: 38%;
+    left: 51.5%;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#diogopic {
+    border-radius: 20px;
+}
 
 li {
     display: inline;
     vertical-align: middle;
     margin: 5px;
 }
+
+<style>
+a:link {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+a:visited {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+a:hover {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style> 
